@@ -60,6 +60,10 @@ function characterPrompt(passwordLength) {
     // console.log(resultArray.join(""))
     return resultArray.join("")
 }
+// if (upperCase === false && lowerCase === false && numerical === false && specialCharacter === false) {
+//     window.alert("Please enter at least one value");
+//     characterPrompt(passwordLength);
+// }
 //nuts and bolts of the operation
 function random(array) {
     var index = Math.floor(Math.random() * array.length);
