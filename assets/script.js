@@ -48,7 +48,8 @@ function characterPrompt(passwordLength) {
     //it has to have at least one of these
     if (upperCase === false && lowerCase === false && numerical === false && specialCharacter === false) {
         window.alert("Please enter at least one value");
-        characterPrompt();
+        characterPrompt(passwordLength);
+        // console.log(resultArray)
     }
     for (i = 0; i < passwordLength; i++) {
         resultArray.push(random(possibleArray));
